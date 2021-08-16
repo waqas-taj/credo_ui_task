@@ -1,0 +1,44 @@
+#slider {
+  padding: 5.0rem 3.0rem;
+  background-color: rgb(238, 181, 76);
+  text-align: center;
+  color: white;
+}
+#slider_heading {
+  text-align: center;
+  font-size: 3.0rem;
+  height: 3.0rem;
+}
+#slider i {
+  font-size: 2.2rem;
+  margin-bottom: 0px;
+}
+#slider_paragraph {
+  font-style: italic;
+  line-height: 3rem;
+  margin: 0 15%;
+  font-size: 1.7rem;
+}
+#slider_subpara {
+  color: rgb(238, 214, 214);
+  font-style: italic;
+  font-size: 1.7rem;
+}
+.dot {
+  cursor: pointer;
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 0 0.7rem;
+  background-color: rgb(238, 214, 214);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-active {
+  cursor: pointer;
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 0 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
