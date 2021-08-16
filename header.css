@@ -1,0 +1,109 @@
+* {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header_desc {
+  background-image: url("./images/hero-img.png");
+  background-position: center;
+  padding: 10% 10%;
+  height: auto;
+}
+#header_heading {
+  font-size: 3.0rem;
+  color: white;
+}
+#header_paragraph {
+  color: rgb(194, 202, 202);
+  line-height: 2.0rem;
+  font-size: 1.3rem;
+  padding-right: 55%;
+}
+nav {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding: 0 19%; */
+  padding-left: 20%;
+  padding-top: 2%;
+}
+.menu a {
+  text-decoration: none;
+  color: grey;
+  padding: 0 1.2rem;
+  font-size: 1.4rem;
+}
+.credo_top a{
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 0 1.2rem;
+}
+.header_desc button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+  background: rgb(243, 187, 83);
+  border-radius: 40px;
+  padding: 1rem 1.5rem;
+}
+.skills a {
+  text-decoration: none;
+  color: rgb(178, 190, 190);
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+.header_left {
+  margin-left: 3rem;
+}
+.menu_icon {
+  display: none;
+}
+
+@media screen and (max-width: 998px) {
+  html {
+    font-size: 13px;
+  }
+  nav {
+    padding-top: 3.0rem;
+  }
+  .menu a {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 782px) {
+  html {
+    font-size: 12px;
+  }
+  .menu {
+    display: none;
+  }
+  .credo_top a{
+    font-size: 1.6rem;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    right: 35%;
+  }
+  nav i {
+    padding: 1.4rem 1.4rem;
+    color: white;
+    font-size: 1.6rem;
+  }
+  .menu_icon {
+    display: block;
+    cursor: pointer;
+}
+  .header_desc {
+    padding: 10rem 0;
+    max-width: 98%;
+    padding-left: 1rem;
+  }
+  #header_paragraph {
+    padding-right: 5%;
+  }
+}

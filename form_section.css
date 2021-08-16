@@ -1,0 +1,78 @@
+#form {
+  padding: 5rem 2rem;
+  background-color: rgb(252, 195, 90);
+}
+#form_heading {
+  text-align: center;
+  color: white;
+  font-size: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+#form textarea {
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: rgb(252, 195, 90);
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  margin-top: 2.5rem;
+  width: 100%;
+}
+.form-text {
+  padding: 0 70px;
+}
+.complete-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.f-name-text {
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: rgb(252, 195, 90);
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  width: 95%;
+}
+.l-name-text {
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: rgb(252, 195, 90);
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  width: 100%;
+}
+.email {
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color: rgb(252, 195, 90);
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+#form button {
+  cursor: pointer;
+  color: white;
+  background: black;
+  border: none;
+  outline: none;
+  padding: 1.0em 1.5em;
+  font-size: 1.3rem;
+  border-radius: 40px;
+  margin-top: 3rem;
+}
+.name-first {
+  flex-basis: 50%;
+}
+.name-last {
+  flex-basis: 50%;
+}
