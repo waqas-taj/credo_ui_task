@@ -6,17 +6,17 @@
 .header_desc {
   background-image: url("./images/hero-img.png");
   background-position: center;
-  padding: 10% 10%;
+  padding: 13rem 13rem;
   height: auto;
 }
 #header_heading {
-  font-size: 3.0rem;
+  font-size: 3.2rem;
   color: white;
 }
 #header_paragraph {
   color: rgb(194, 202, 202);
-  line-height: 2.0rem;
-  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
   padding-right: 55%;
 }
 nav {
@@ -25,21 +25,20 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  /* padding: 0 19%; */
-  padding-left: 20%;
-  padding-top: 2%;
+  padding: 0 27rem;
+  padding-top: 3.5rem;
 }
 .menu a {
   text-decoration: none;
   color: grey;
-  padding: 0 1.2rem;
-  font-size: 1.2rem;
+  padding: 0 1.5rem;
+  font-size: 1.3rem;
 }
 .credo_top a{
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  padding: 0 1.2rem;
+  padding: 0 1.5rem;
 }
 .header_desc button {
   cursor: pointer;
@@ -63,19 +62,7 @@ nav {
   /* display: none; */
   /* text-decoration:dotted;  */
 }
-@media screen and (max-width: 998px) {
-  html {
-    font-size: 13px;
-  }
-  nav {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 3.5rem;
-  }
-}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 12px;
@@ -89,8 +76,8 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    padding: 2% 25%;
+    /* text-align: center; */
+    padding-top: 3.5rem;
   }
   nav i {
     padding: 1.4rem 1.4rem;
@@ -98,9 +85,9 @@ nav {
     font-size: 1.6rem;
   }
   .menu_icon {
-    /* flex-basis: 40%; */
+    flex-basis: 40%;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.87rem;
   }
   .header_desc {
     padding: 10rem 0;
